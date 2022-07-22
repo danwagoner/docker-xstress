@@ -8,6 +8,7 @@ RUN tar -zxvf xstress-src-0.375-beta-20090219.tar.gz && \
     make && \
     mkdir /opt/xstress && \
     cp bin/xstress /opt/xstress/ && \
+    cp bin/base64 /opt/xstress/ && \
     rm -rf *
 
 WORKDIR /opt/xstress
